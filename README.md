@@ -1,7 +1,7 @@
 # 🚗 Arduino UNO Prototype Projects 
 
 This repository contains **two Arduino UNO–based robotic projects** built using **ultrasonic sensors and an L298N motor driver**.  
-All three projects use the **same hardware setup**, and only the **control logic (code)** changes.
+Both projects use the **same hardware setup**, and only the **control logic (code)** changes.
 
 ---
 
@@ -12,7 +12,7 @@ All three projects use the **same hardware setup**, and only the **control logic
 
 ---
 
-## 🧰 Common Hardware Components (Same for 2 Projects)
+## 🧰 Common Hardware Components 
 
 - Arduino UNO  
 - L298N Motor Driver Module  

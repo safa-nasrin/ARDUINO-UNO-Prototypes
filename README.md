@@ -1,6 +1,6 @@
-# 🚗 Arduino UNO Prototype Projects (3-in-1)
+# 🚗 Arduino UNO Prototype Projects 
 
-This repository contains **three Arduino UNO–based robotic projects** built using **ultrasonic sensors and an L298N motor driver**.  
+This repository contains **two Arduino UNO–based robotic projects** built using **ultrasonic sensors and an L298N motor driver**.  
 All three projects use the **same hardware setup**, and only the **control logic (code)** changes.
 
 ---
@@ -9,11 +9,10 @@ All three projects use the **same hardware setup**, and only the **control logic
 
 1. **Obstacle Avoidance Prototype**
 2. **Object Following Prototype**
-3. **Collision Avoidance Prototype**
 
 ---
 
-## 🧰 Common Hardware Components (Same for All 3 Projects)
+## 🧰 Common Hardware Components (Same for 2 Projects)
 
 - Arduino UNO  
 - L298N Motor Driver Module  
@@ -107,23 +106,6 @@ The robot follows a nearby object (hand or object) using **distance-based speed 
 
 ---
 
-## 🤖 3. Collision Avoidance Robot
-
-### 🔍 Description
-The robot tracks nearby obstacles and moves while maintaining a **safe distance**, preventing collisions.
-
-### 🧠 Working Logic
-- Obstacle in front → move forward safely
-- Obstacle on left → turn left
-- Obstacle on right → turn right
-- No obstacle → stop
-
-### 🎯 Features
-- Safe-distance following  
-- Controlled movement  
-- Collision prevention  
-
----
 
 ## 🚀 How to Upload Code
 
@@ -137,7 +119,7 @@ The robot tracks nearby obstacles and moves while maintaining a **safe distance*
 
 ## 📌 Notes
 
-- Same hardware is used for all projects
+- Same hardware is used for 2 projects
 - Only the program logic changes
 - Ultrasonic sensor placement must match code comments
 - Speed and distance values can be adjusted in code
